@@ -1,0 +1,109 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:c535f97e-316e-554d-afcc-1993c66606a4",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-13T20:35:17Z",
+    "component": {
+      "type": "application",
+      "name": "K_ELEPHANT",
+      "version": "32f1b56fa104",
+      "bom-ref": "pkg:generic/anticloud/K_ELEPHANT@32f1b56fa104",
+      "purl": "pkg:generic/anticloud/K_ELEPHANT@32f1b56fa104",
+      "licenses": [
+        {
+          "license": {
+            "id": "UNKNOWN"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "32f1b56fa104ce5a7bc13905458725ea9be34754"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/NeuralEnsemble/elephant"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "-DMODULE_NAME",
+      "version": "=fim",
+      "purl": "pkg:pypi/-dmodule-name@fim",
+      "bom-ref": "pypi/-DMODULE_NAME@=fim"
+    },
+    {
+      "type": "library",
+      "name": "-Werror",
+      "version": "=return-type",
+      "purl": "pkg:pypi/-werror@return-type",
+      "bom-ref": "pypi/-Werror@=return-type"
+    },
+    {
+      "type": "library",
+      "name": "-std",
+      "version": "=gnu++17",
+      "purl": "pkg:pypi/-std@gnu++17",
+      "bom-ref": "pypi/-std@=gnu++17"
+    },
+    {
+      "type": "library",
+      "name": "conda-forge",
+      "version": "unspecified",
+      "purl": "pkg:generic/conda-forge",
+      "bom-ref": "conda/conda-forge@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "python",
+      "version": "unspecified",
+      "purl": "pkg:generic/python",
+      "bom-ref": "conda/python@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "mpi4py",
+      "version": "unspecified",
+      "purl": "pkg:generic/mpi4py",
+      "bom-ref": "conda/mpi4py@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pip",
+      "version": "unspecified",
+      "purl": "pkg:generic/pip",
+      "bom-ref": "conda/pip@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "-r",
+      "version": "unspecified",
+      "purl": "pkg:generic/-r",
+      "bom-ref": "conda/-r@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "extras.txt",
+      "version": "unspecified",
+      "purl": "pkg:generic/extras.txt",
+      "bom-ref": "conda/extras.txt@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "tutorials.txt",
+      "version": "unspecified",
+      "purl": "pkg:generic/tutorials.txt",
+      "bom-ref": "conda/tutorials.txt@unspecified"
+    }
+  ]
+}
